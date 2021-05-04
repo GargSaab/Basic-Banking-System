@@ -9,7 +9,7 @@ app.use(cors());
 
 const Users = mongoose.model("UserData");
 const mongouri =
-  "mongodb+srv://app:a4ExWFX2369X1VkW@cluster0.9on1s.mongodb.net/BankingApp?retryWrites=true&w=majority";
+  "mongodb://<username>:<password>@<address>";
 
 mongoose.connect(mongouri, {
   useNewUrlParser: true,
